@@ -1,0 +1,46 @@
+.fa {
+    font-size: 1.7rem;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+}
+
+.fa-angle-down:hover {
+    color: var(--yellow)
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    width: 1.7rem;
+    font-weight: 700; 
+    font-family: "Font Awesome 5 Free"; 
+    color: var(--yellow);
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.location::before {
+    content: "\f041";
+}
+
+.phone::before {
+    content: "\f095";
+}
+
+.email::before {
+    content: "\f0e0";
+}

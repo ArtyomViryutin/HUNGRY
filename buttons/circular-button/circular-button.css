@@ -1,0 +1,31 @@
+.circle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid var(--pale);
+    padding: 0.4rem;
+    outline: none;
+}
+
+.circle-button__content {
+    cursor: pointer;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-button__content_bacground_none {
+    background: none;
+}
+
+.fa-angle-down {
+    color: black;
+}

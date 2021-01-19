@@ -1,0 +1,15 @@
+.bold-text {
+    font-weight: 700;
+}
+
+.banny-text {
+    font-family: Banny;
+}
+
+.grey-text {
+    color: var(--dark-grey);
+}
+
+.small-text {
+    font-size: 0.9rem;
+}

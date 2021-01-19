@@ -1,0 +1,9 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--black);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}

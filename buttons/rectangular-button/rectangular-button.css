@@ -1,0 +1,32 @@
+.rectangular-button {
+    width: 100%;
+    height: 3.5rem;
+    cursor: pointer;
+    border-radius: 0.3em;
+    border: var(--white) solid 1px;
+    outline: none;
+    background: none;
+    transition: 0.2s ease;
+    font-family: sans-serif;
+    color: var(--white);
+    padding: 0;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rectangular-button_size_half {
+    width: 45%;
+}
+
+.rectangular-button:hover {
+    background: var(--yellow);
+}
+
+.rectangular-button_background_yellow {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.rectangular-button_background_yellow:hover {
+    background-color: var(--hover-yellow);
+}

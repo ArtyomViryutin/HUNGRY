@@ -1,0 +1,28 @@
+.small-header {
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.medium-header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-family: Banny;
+    text-align: center;
+}
+
+.large-header {
+    font-size: 6.5rem;
+    line-height: 7.5rem;
+    font-family: Banny;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .large-header {
+        font-size: 5rem;
+
+    }
+}

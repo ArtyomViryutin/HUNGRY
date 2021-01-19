@@ -1,0 +1,65 @@
+:root {
+    --white: white;
+    --yellow: #E8C300;
+    --hover-yellow: orange;
+    --black: black;
+    --grey: #E5E5E5;
+    --dark-grey: grey;
+    --pale:  rgba(255, 255, 255, 0.2);
+    --black-pale: rgba(51, 51, 51, 0.2);
+
+}
+
+@font-face {
+    font-family: "Banny";
+    src: url("./Font-Banny/Banny-Round.otf") format("opentype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: var(--white);
+    font-style: normal;
+    background-color: var(--white);
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+
+a {
+    color: var(--white);
+} 
+
+
+a:hover {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+
+footer {
+    height: 12vh;
+    background-color: var(--black);
+    padding-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+

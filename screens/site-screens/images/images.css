@@ -1,0 +1,10 @@
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    background-size: contain;
+}
+
+.images__image {
+    width: 25%;
+    height: 25%;
+}

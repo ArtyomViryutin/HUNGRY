@@ -1,0 +1,40 @@
+.menu {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.menu__choice {
+    margin-top: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+
+.menu__price-table {
+    width: 100%;
+}
+
+.menu__position {
+    width: 85%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__dish-name, .menu__dish-price {
+    font-family: Banny;
+    font-size: 1.3rem;
+}
+
+.menu__dish-description {
+    font-size: 0.8rem;
+    color: var(--dark-grey);
+}
+
+
+
+

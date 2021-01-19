@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    /* position: relative; */
+    /* position: fixed; */
+    /* background-color: red; */
+    z-index: 3;
+}
+
+.header__vector {
+    margin-top: 1.3rem;
+    position: relative;
+    z-index: 1;
+}

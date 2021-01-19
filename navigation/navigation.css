@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid var(--pale);
+}
+
+.navigation__element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__element_color_black {
+    color: var(--black);
+}
+
+.navigation__element:hover {
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 700px) {
+    .navigation {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+    }
+}

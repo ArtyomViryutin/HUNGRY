@@ -1,0 +1,23 @@
+.choice {
+    height: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice__item {
+    width: 100%;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: none;
+    background: none;
+    border-right: 1px solid var(--black-pale);
+}
+
+.choice__item:hover {
+    color: var(--yellow);
+}
+.choice__item:last-child {
+    border-right: none;
+}   

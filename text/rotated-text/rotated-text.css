@@ -1,0 +1,23 @@
+.rotated-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  writing-mode: vertical-lr;
+  display: flex;
+  }
+
+  .rotated-text_degree_180 {
+    margin: auto;
+    transform: rotate(180deg);
+  }
+
+  .rotated-text_align_top {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .rotated-text_align_bottom {
+    margin: auto;
+    margin-bottom: 1rem;
+  }

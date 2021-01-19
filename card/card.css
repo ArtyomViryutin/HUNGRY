@@ -1,0 +1,27 @@
+.card {
+    width: 43%;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card__description {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.card__content {
+    text-align: center;
+}
+
