@@ -1,0 +1,72 @@
+.messages-box {
+  height: 13rem;
+  background-color: rgb(240, 236, 236);
+  overflow-y: scroll;
+  padding: 0.5rem;
+  z-index: 100;
+}
+
+
+body *{box-sizing: border-box;}
+  
+  .chat-button {
+    background-color: var(--yellow);
+    color: var(--white);
+    opacity: 0.8;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    z-index: 3;
+  }
+  
+  .chat-popup {
+    width: 30%;
+    display: none;
+    position: fixed;
+    color: var(--black);
+    bottom: 1rem;
+    right: 1rem;
+    border: 3px solid #f1f1f1;
+    border-radius: 1rem;
+    z-index: 3;
+    background-color: var(--white);
+  }
+  
+  .form-container {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  .form-container .btn:hover, .chat-button:hover {
+    opacity: 1;
+  }

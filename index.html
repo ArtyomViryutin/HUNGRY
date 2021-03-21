@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="header/header.css">
     <link rel="stylesheet" href="carousel/carousel.css">
     <link rel="stylesheet" href="icons/icons.css">
+    <link rel="stylesheet" href="./chat/style.css">
     <title>HUNGRY PEOPLE</title>
 </head>
 <body>
@@ -39,7 +40,29 @@
     <div class="line2"></div>
     <div class="line3"></div>
 
+    <button class="circle-button chat-button" id="open-button"><div class="fa fa-comments"></div></button>
+    <div class="chat-popup" id="myForm">
+        <h1>Chat</h1>
+        <div class="form-container">
+        <div class="messages-box">
+        </div>
+
+        <label for="message"><b>Message</b></label>
+        <textarea placeholder="Enter a message..." id="message"></textarea>
+
+        <section class="record-buttons">
+            <div id="buttons">
+            <button class="record">Record audio</button>
+            <button class="stop">Stop</button>
+            </div>
+        </section>
+        <section class="sound-clips"></section>
+        <button type="submit" class="btn" id="sendMessage">Send</button>
+        <button type="button" class="btn cancel" id="close-button">Close</button>
+        </div>
+    </div>
     <div class="template-screen home" id="home">
+        
         <div class="header">
             <div class="navigation">
                 <a class="navigation__element" href="#home">HOME</a>
@@ -376,5 +399,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="./chat/script.js"></script>
+
 </body>
 </html>
